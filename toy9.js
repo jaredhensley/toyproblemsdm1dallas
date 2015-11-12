@@ -13,13 +13,17 @@ function returnPrimes(num1, num2) {
         primeCounter++;
       }
     }
+
     if (primeCounter < 3) {
-      if (i !== 1 && i < 0) {
+      if (i > 1) {
         primes.push(i);
       }
     }
+
   }
+
   return primes;
+
 }
 
 console.log(returnPrimes(13, 19))
