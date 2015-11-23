@@ -7,10 +7,17 @@ function checkArr(arr) {
     return Math.floor(Math.random() * (30 - 0) + 0);
   })();
 
-  arr.indexOf(getRandomArbitrary) >= 0 ? : alert('true'): alert('false');
+  arr.indexOf(getRandomArbitrary) >= 0 ? alert('true') : alert('false');
 
 }
 
 var arr = [0, 3, 4, 5, 6, 7, 9, 14, 17, 24, 25, 26, 29, 30];
 
-console.log(check(arr));
+console.log(checkArr(arr));
+
+
+//JASONS SOLUTION
+
+function findRando(n, arr) {
+  return arr.index(n) !== -1;
+}
